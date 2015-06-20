@@ -10,6 +10,10 @@ header a:hover {
 	text-decoration: none;
 	color:hsla(70,80%,100%,1);
 }
+#banner > div > div > div > div > a:link {
+	text-decoration: none;
+	color:hsla(191.6,24.8%,100%,1);
+}
 #nav-content > ul > li > p > a > img:hover,
 #nav-content > ul > li > p > a > img:focus {
 	text-decoration: none;
