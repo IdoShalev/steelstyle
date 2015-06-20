@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Steel Style</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400italic' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+	<script src="lightbox/js/jquery-1.11.0.min.js"></script>
+	<script src="lightbox/js/lightbox.min.js"></script>
+	<link href="lightbox/css/lightbox.css" rel="stylesheet" />
+	<script src='fullcalendar/lib/jquery.min.js'></script>
+	<script src='fullcalendar/lib/moment.min.js'></script>
+	<script src='fullcalendar/fullcalendar.js'></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel='stylesheet' href='styles.css' />
+	<link rel="icon" type="image/png" href="icon.png" />
+</head>
+<body>
+	<div id="top_color"></div>
+	<div id="imgbanner"></div>
+	<header class="banner" role="banner">
+			<div id="banner">
+			<nav class="navbar-static-top untoggleNav " role="navigation" id="nav">
+				<div class="container-fluid">
+				<div class="navbar-header">
+              <button type="button" id="navbutton" class="navbar-toggle collapsed">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+				<a class="navbar-brand logo" href="#"><img id="steelstyle" class="untoggledLogo" src="logo.png" alt="Steel Style" /></a>
+				</div>
+			    <div class="collapse navbar-collapse collapseColor" id="nav-content">
+			      <ul class="nav navbar-nav navbar-right">
+			      		<li class="menu_item"><p><a href="https://www.facebook.com/steelstyleawards"><img class="icon" src="FB-f-Logo__blue_29.png"></a></p></li>
+			          <li class="menu_item"><p><a href="#"><img class="icon" src="Twitter_logo_blue.png"></a></p></li>
+			          <li class="menu_item"><a href="#about"><p>About</p></a></li>
+			          <li class="menu_item"><a href="#contact"><p>Contact</p></a></li>
+			          <li class="menu_item"><a href="#events"><p>Calendar</p></a></li>
+			          <li><a class="button btn primary" href="Engraving and order form.pdf" target="_blank">Order Now ></a></li>
+			        </ul>
+			    </div>
+			  </div>
+
+			</nav>
+			<div class="container bannertext">
+				<div class="wrapper">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 text-center">
+							<p>Are you hosting a race or do you want something cool for your trophy shelf?<br> We can do that with steel and flames!</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<h1>LED Trophies made with Real steel</h1>
+						</div>
+					</div>
+					<div class="row bannerButton">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<a class="primary btn button" href="Engraving and order form.pdf" target="_blank">Order Now ></a>
+						</div>
+					</div>
+					<div class="row bannerButton">
+						
+					</div>
+				</div>
+			</div>
+			</div>
+		</header>
+
+	<span id="about" class="anchor"></span>
+	<main class="container">
+			<div class="row text-center">
+				<p>Show off your accomplishments with our cool LED lit awards made with real steel! These hand made lights will look great in your room or on your trophy shelf. They make a great gift for the rider in your family too.</p>
+				<p>Hosting an event or race? Set it apart and do better than those boring plastic trophies with a Steel Style trophy that will have competitors working even harder to win!</p>
+			</div>
+			<div class="row">
+			<div class="col-sm-12">
+			<div class="gallery">
+				<a class="trophy" data-lightbox="trophies" href="img2.jpg"><img src="img2.png"></a>
+				<a class="trophy" data-lightbox="trophies" href="img3.jpg"><img src="img3.png"></a>
+				<a class="trophy" data-lightbox="trophies" href="img4.jpg"><img src="img4.png"></a>
+				<a class="trophy" data-lightbox="trophies" href="img5.jpg"><img src="img5.png"></a>
+				<a class="trophy" data-lightbox="trophies" href="img6.jpg"><img src="img6.png"></a>
+				<a class="trophy" data-lightbox="trophies" href="img7.jpg"><img src="img7.png"></a>
+			</div>
+			</div>
+			</div>
+			<div class="row text-center">
+				<h3>To order, Download the order form and e-mail it to order@steelstyleawards.com</h3>
+			</div>
+				<span id="order" class="anchor"></span>
+				<div class="row text-center">
+					<a href="Engraving and order form.pdf"  target="_blank" class="transparent btn  downloadButton">Download order form <i class="fa fa-arrow-circle-o-down down"></i></a>
+				</div>
+	</main>
+	<span id="contact" class="anchor"></span>
+	<footer class="footer">
+		<div class="container">
+		<div class="wrapper">
+			<div class="row text-center contact">
+				<div class="center_contact"></div>
+				<h3>Questions, concerens, comments?</h3>
+				<h3>We would love to hear from you!</h3>
+				<a href="mailto:contact@steelstyleawards.com?Subject=order" target="_top" class="contact">contact@steelstyleawards.com</a>
+			</div>
+		<span id="events" class="anchor"></span>
+			<div class="container">
+			<div class="wrapper">
+				<div class="row">
+					<h2 class="col-lg-offset-1">Events Calendar</h2>
+				</div>
+				<div id='calendar'></div>
+				<div class="row">
+					<div class=""><i class="fa fa-copyright"></i>2015 SteelStyle</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		</footer>
+	<script src="script.js"></script>
+</body>
+</html>
